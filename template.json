@@ -1,15 +1,34 @@
 {
-    "Actor": {"Player Character"}
-    "Items": {
+    "Actor":{},
+    "Item":{
         "types": [
             "Weapon",
-            "Gear", 
+            "Gear",
             "Armor"
         ],
+        "templates":{
+            "itemDescription":{
+                "description":""
+            }
+        },
         "Weapon": {
+            "templates":["itemDescription"],
             "attackWith": "physique", 
             "damage": 0,
             "reload": false, 
             "weight": 0
+        },
+        "Gear": {
+            "templates":["itemDescription"],
+            "weight": 0, 
+            "actionCost": 0,
+            "Usable": false
+        },
+        "Armor": {
+            "templates":["itemDescription"],
+            "weight": 0,
+            "ArmorValue": 0,
+            "duribility": 0
         }
+    }
 }

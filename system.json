@@ -4,13 +4,13 @@
   "description": "The High Fantasy Setting Created by 4Fates",
   "version": "0.01",
   "minimumCoreVersion": "0.8.9",
-  "compatibleCoreVersion": "0.8.9",
+  "compatibleCoreVersion": "0.9.255",
   "author": "4Fates",
   "esmodules": [
-      "oc1e.json"
+      "oc1e.js"
     ],
   "styles": [
-      "oc1e.json"
+      "oc1e.css"
     ],
   "packs": [
 
@@ -28,7 +28,5 @@
   "secondaryTokenAttribute": "Energy",
   "initiative": "1d10 + @Reflexes + @Senses",
   "url": "https://github.com/4Fates/oc1e.git",
-  "manifest": "https://github.com/4Fates/oc1e.git",
-  "download": "https://github.com/4Fates/oc1e.git",
-  "license": "LICENSE.txt"
+  "manifest": "https://github.com/4Fates/oc1e/blob/main/system.json"
 }
