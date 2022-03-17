@@ -6,9 +6,15 @@ export default class oc1eItemSheet extends Itemsheet {
 
 
 getData() {
-    const data = super.getData()
+    const baseData = super.getData();
+    let sheetData ={
+        owner: this.item.isOwner,
+        editable: this.isEditable,
+        item: baseData.item,
+        data: baseData.item.data.data,
+        config: CONFIG.oc1e
+    };
 
-    data.config = CONFIG.oc1e;
-
-    return data;
-}}
+    return sheetData;
+}
+}
