@@ -1,0 +1,34 @@
+{
+"name": "oc1e",
+  "title": "Occovar",
+  "description": "The High Fantasy Setting Created by 4Fates",
+  "version": "0.01",
+  "minimumCoreVersion": "0.8.9",
+  "compatibleCoreVersion": "0.8.9",
+  "author": "4Fates",
+  "esmodules": [
+      "oc1e.json"
+    ],
+  "styles": [
+      "oc1e.json"
+    ],
+  "packs": [
+
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "gridDistance": 5,
+  "gridUnits": "ft",
+  "primaryTokenAttribute": "Health",
+  "secondaryTokenAttribute": "Energy",
+  "initiative": "1d10 + @Reflexes + @Senses",
+  "url": "https://github.com/4Fates/oc1e.git",
+  "manifest": "https://github.com/4Fates/oc1e.git",
+  "download": "https://github.com/4Fates/oc1e.git",
+  "license": "LICENSE.txt"
+}

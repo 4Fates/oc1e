@@ -1,0 +1,15 @@
+{
+    "Actor": {"Player Character"}
+    "Items": {
+        "types": [
+            "Weapon",
+            "Gear", 
+            "Armor"
+        ],
+        "Weapon": {
+            "attackWith": "physique", 
+            "damage": 0,
+            "reload": false, 
+            "weight": 0
+        }
+}
