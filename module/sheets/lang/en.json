@@ -1,0 +1,32 @@
+{
+    "oc1e": {
+        "attack": {
+            "none": "",
+            "physique": "physique",
+            "reflex": "reflex",
+            "connection": "connection",
+            "mastery": "mastery",
+            "mind":"mind",
+            "sense": "sense",
+            "SwordSkill": "SwordSkill",
+            "DefenseSkill": "DefenseSkill",
+            "Archery": "Archery"
+        },
+        "weapon": {
+            "attackWith": "Attack with:",
+            "damage": "Damage",
+            "weight": "Weight",
+            "reload": "Reload"
+        },
+        "Gear":{
+            "weight": "Weight",
+            "actionCost": "Action Cost",
+            "Usable": "Usable"
+        },
+        "Armor": {
+            "weight": "Weight",
+            "ArmorValue": "Armor Value",
+            "duribility": "Duribility"
+        }
+    }
+}
