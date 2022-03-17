@@ -1,4 +1,3 @@
-import { oc1e } from "./module/sheets/config.js";
 import oc1eItemSheet from "./module/sheets/oc1eItemSheet.js";
 
 Hooks.once("init", function() {
@@ -6,6 +5,6 @@ Hooks.once("init", function() {
 
     CONFIG.oc1e = oc1e;
 
-    oc1eItemSheet.unregisterSheet("core", ItemSheet);
-    oc1eItemSheet.registerSheet("oc1e", oc1eItemSheet, {makeDefault: true});
+    Items.unregisterSheet("core", ItemSheet);
+    Items.registerSheet("oc1e", oc1eItemSheet, {makeDefault: true});
 })
